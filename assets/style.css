@@ -1,0 +1,533 @@
+/*
+Theme: Tutorial
+Demo: http://demo.anchorthemes.com/ticket
+Description: Based on Ticket theme. A theme that cuts to the chase, made for Anchor CMS. Uses Anchor to its full potential.
+Author: David Darnes
+Author URI: http://david.darn.es
+*/
+/* Globals */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+}
+body {
+  background: #490631 url(bg.jpg) center;
+  background-size: cover;
+  color: #666666;
+  font: 13px/23px "Helvetica Neue", "Arial", sans-serif;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  text-rendering: optimizelegibility;
+  -webkit-text-size-adjust: none;
+}
+/* Structure */
+/* Title outside wrapper */
+.logo {
+  font-size: 3em;
+  text-align: center;
+  width: 100%;
+  display: block;
+  padding: 1em 0 1.2em 0;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.30000000000000004);
+}
+.logo a {
+  font-weight: 300;
+  color: #610841;
+  /* IE 7 & 8 doesn't understand rgba values */
+
+  color: rgba(97, 8, 65, 0.5);
+}
+.logo a:hover {
+  color: #610841;
+}
+.logo a:active {
+  color: rgba(97, 8, 65, 0.8);
+}
+/* Site wrapper */
+section {
+  max-width: 400px;
+  margin: 0 auto 4em auto;
+  background: #ffffff;
+  padding: 15px 20px 10px;
+  clear: both;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.30000000000000004);
+  -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.30000000000000004);
+  -o-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.30000000000000004);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.30000000000000004);
+  /* Reset for article sections */
+
+}
+section section {
+  margin: 0;
+  padding: 0;
+  padding: 0 0 .6em;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  -o-box-shadow: none;
+  box-shadow: none;
+}
+/* Top nav */
+nav {
+  float: right;
+  text-align: right;
+  line-height: 2.45em;
+}
+nav a {
+  margin-left: .55em;
+}
+/* Column width (half the site width) */
+header,
+nav,
+aside {
+  width: 200px;
+}
+/* Nothing that comes after these are getting past */
+article,
+form,
+footer,
+hr {
+  clear: both;
+}
+/* Left positioned things */
+header,
+aside,
+input,
+textarea,
+label {
+  float: left;
+}
+footer {
+  min-height: 24px;
+}
+footer small {
+  margin-bottom: 0;
+}
+/* Right positioned things */
+nav,
+.credit {
+  float: right;
+}
+/* Divider line */
+article,
+footer,
+[class*="author-"],
+.comments,
+form,
+aside {
+  border-top: 1px solid #f2f2f2;
+  padding: 1em 0 .8em;
+}
+/* Makes images go flush to the width of the site */
+figure {
+  margin: -1.7em -20px 0;
+  padding: .6em 0;
+}
+figure img {
+  width: 100%;
+  height: auto;
+}
+/* Typography */
+/* Reset (avoid any weird positioning and italics) */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+small,
+ul,
+li,
+blockquote,
+code,
+strong,
+input,
+textarea {
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #4d4d4d;
+  font-weight: 400;
+  /* Keeps weight for linked headings */
+
+}
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+  font-weight: inherit;
+}
+h1 {
+  font-weight: 300;
+  font-size: 2em;
+  line-height: 1.3em;
+  padding-bottom: .5em;
+}
+h2 {
+  font-weight: 400;
+  font-size: 1.8em;
+  line-height: 1.3em;
+  padding-bottom: 0.2em;
+}
+h3 {
+  font-weight: 400;
+  font-size: 1.2em;
+  line-height: 1.5em;
+  padding-bottom: .4em;
+}
+h4 {
+  font-weight: 500;
+  font-size: 1em;
+  line-height: 1.5em;
+  padding-bottom: .5em;
+}
+h5 {
+  font-weight: 400;
+  font-size: .8em;
+  line-height: 1.8em;
+  padding-bottom: 1em;
+}
+/* Optional caption type */
+h6 {
+  color: #808080;
+  font-style: italic;
+  font-weight: 300;
+  font-size: .7em;
+  line-height: 1.8em;
+  padding-bottom: 1em;
+}
+p,
+legend {
+  font-size: 1em;
+  line-height: 1.8em;
+  padding-bottom: .5em;
+}
+a {
+  font-weight: 500;
+  color: #610841;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  text-decoration: none;
+  /* Bright purple */
+
+  /* Dark purple */
+
+  /* Faded purple (used in menu) */
+
+}
+a:hover {
+  color: #900c61;
+}
+a:active {
+  color: #490631;
+}
+a.active {
+  color: rgba(97, 8, 65, 0.5);
+}
+/* Footer meta info (timestamp, category and breadcrumb) */
+small {
+  font-weight: 400;
+  color: #999999;
+  margin-bottom: 1.2em;
+  display: inline-block;
+  /* Keep links in check in smalls */
+
+}
+small a {
+  font-weight: inherit;
+}
+ul {
+  padding: 0 0 1em 1.3em;
+  list-style: disc;
+}
+ul li {
+  color: #666666;
+  padding-bottom: .2em;
+  line-height: 1.7em;
+}
+aside ul {
+  padding-bottom: 0;
+}
+/* Massive quotes */
+blockquote {
+  margin: 0;
+  padding: 1em;
+  font-weight: 300;
+  font-size: 2em;
+  color: #999999;
+  /* Paragraph inside quotes needs resetting */
+
+}
+blockquote p {
+  padding: 0;
+  line-height: 1.2em;
+}
+/* Subtle border and background to give focus to code snippets */
+code {
+  font-family: Courier New, Courier, monospace;
+  border: 1px solid #e6e6e6;
+  background: #fafafa;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  padding: .2em .4em;
+}
+/* Make sure its bold */
+strong {
+  font-weight: 500;
+}
+/* Thin subtle line */
+hr {
+  height: 1px;
+  border: 0;
+  background: #f2f2f2;
+  margin: 0 0 1em;
+}
+/* Credits */
+.credit a {
+  color: #666666;
+}
+.credit a:hover {
+  color: #333333;
+}
+/* Selection */
+::selection {
+  background: #610841;
+  /* Safari */
+
+  color: #ffffff;
+}
+::-moz-selection {
+  background: #610841;
+  /* Firefox */
+
+  color: #ffffff;
+}
+/* Forms */
+/* Used to split fields apart */
+form p {
+  display: inline-block;
+  padding-bottom: 1em;
+  clear: both;
+}
+/* Style inspired by Anchor CMS fields */
+input,
+textarea {
+  -webkit-appearance: none;
+  /* Stop webkit ugly styling */
+
+  min-width: 231px;
+  /* Keeps fields going full width */
+
+  min-height: 29px;
+  /* Keeps fields in check in Firefox */
+
+  border: 0;
+  outline: none;
+  background: #f0f0f0;
+  padding: .38em 1em;
+  -webkit-border-radius: 0 3px 3px 0;
+  -moz-border-radius: 0 3px 3px 0;
+  -o-border-radius: 0 3px 3px 0;
+  border-radius: 0 3px 3px 0;
+  line-height: 2.3em;
+  font-family: "Helvetica Neue", "Arial", sans-serif;
+  color: #808080;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  /* Slightly lighter when typing in the field */
+
+}
+input:focus,
+textarea:focus {
+  background: #f7f7f7;
+}
+/* Clears webkit styling for search field (#term is for Firefox, which doesn't recognise type=search for some reason) */
+input[type="search"]::-webkit-search-cancel-button,
+#term::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration,
+#term::-webkit-search-decoration {
+  display: none;
+}
+textarea {
+  -webkit-border-radius: 0 3px 3px 3px;
+  -moz-border-radius: 0 3px 3px 3px;
+  -o-border-radius: 0 3px 3px 3px;
+  border-radius: 0 3px 3px 3px;
+  min-height: 100px;
+  /* Big enough to write in comfortably */
+
+}
+/* Matching labels next to fields, flush to each other */
+label {
+  display: inline-block;
+  background: #e6e6e6;
+  padding: 0 1em;
+  -webkit-border-radius: 3px 0 0 3px;
+  -moz-border-radius: 3px 0 0 3px;
+  -o-border-radius: 3px 0 0 3px;
+  border-radius: 3px 0 0 3px;
+  line-height: 3em;
+  min-width: 116px;
+}
+/* Nice placeholder colour */
+::-webkit-input-placeholder {
+  color: #999999;
+}
+:-moz-placeholder {
+  color: #999999;
+}
+::-moz-placeholder {
+  color: #999999;
+}
+:-ms-input-placeholder {
+  color: #999999;
+}
+/* Dark but not loud buttons */
+input[type="submit"],
+button[type="submit"] {
+  min-width: inherit;
+  min-height: 40px;
+  /* Keeps buttons in check on Firefox */
+
+  border: 0;
+  outline: none;
+  background: #a6a6a6;
+  padding: 0 1.2em;
+  margin: 0;
+  border-radius: 3px;
+  line-height: 2em;
+  font-family: "Helvetica Neue", "Arial", sans-serif;
+  color: #ffffff;
+  cursor: pointer;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  line-height: 3em;
+  /* Darken on holder */
+
+  /* Even darker on click */
+
+}
+input[type="submit"]:hover,
+button[type="submit"]:hover {
+  background: #8c8c8c;
+}
+input[type="submit"]:active,
+button[type="submit"]:active {
+  background: #737373;
+}
+/* Match fields up with everything else */
+label,
+input,
+textarea,
+button {
+  font-size: 1em;
+}
+/* Comments */
+.comments {
+  /* Title needs to take a step back from comments */
+
+  /* Clear general styling for lists */
+
+  /* Keep comments apart */
+
+  /* Keep the timestamp close */
+
+}
+.comments h3 {
+  color: #808080;
+}
+.comments ul {
+  list-style: none;
+  padding: 0;
+}
+.comments li {
+  padding-bottom: .4em;
+}
+.comments p {
+  padding-bottom: .2em;
+}
+/* Notes for comment form user */
+.notifications {
+  text-align: center;
+}
+.notifications p {
+  display: block;
+  width: 100%;
+  padding: .55em 0;
+  margin-bottom: .75em;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  background: #e6e6e6;
+  border: 1px solid #b3b3b3;
+  /* Its worked */
+
+  /* Its not worked */
+
+}
+.notifications p.success {
+  background: #ebffeb;
+  border: 1px solid #00b800;
+}
+.notifications p.error {
+  background: #ffe5e5;
+  border: 1px solid #ff0000;
+}
+/* Mobile */
+@media (max-width: 440px) {
+  header,
+  nav,
+  aside {
+    float: none;
+    width: 100%;
+  }
+  section {
+    border-radius: 0;
+  }
+  input,
+  textarea {
+    width: 93%;
+    -webkit-border-radius: 0 3px 3px 3px;
+    -moz-border-radius: 0 3px 3px 3px;
+    -o-border-radius: 0 3px 3px 3px;
+    border-radius: 0 3px 3px 3px;
+  }
+  input[type="submit"] {
+    width: auto;
+  }
+  input[type="search"] {
+    width: 100%;
+  }
+  label {
+    -webkit-border-radius: 3px 3px 0 0;
+    -moz-border-radius: 3px 3px 0 0;
+    -o-border-radius: 3px 3px 0 0;
+    border-radius: 3px 3px 0 0;
+  }
+}
