@@ -70,13 +70,13 @@ body {
 	text-shadow: 0 1px 4px @shadows;
 	a {
 		font-weight: 300;
-		color: @backgrounds; // IE 7 & 8 doesn't understand rgba values
-		color: fadeout(@backgrounds, 20%);
+		color: @links; // IE 7 & 8 doesn't understand rgba values
+		color: fadeout(@links, 40%);
 		&:hover {
-			color: @backgrounds;
+			color: @links;
 		}
 		&:active {
-			color: fadeout(@backgrounds, 20%);
+			color: fadeout(@links, 40%);
 		}
 	}
 }
