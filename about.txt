@@ -1,5 +1,5 @@
-Theme name:    Tutorial
-Description:   Based on Ticket theme. It's your ticket out of here. Built for Anchor CMS by David Darnes.
+Theme name:    Cleat
+Description:   A light and pure theme thats simple at heart.
 Author name:   David Darnes
 Author site:   http://david.darn.es
 License:       http://licence.visualidiot.com
