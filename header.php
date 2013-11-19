@@ -8,6 +8,9 @@
 		<!-- Asset links -->
 		<link href="<?php echo theme_url('assets/style.css'); ?>" media="screen" rel="stylesheet" type="text/css" />
 		<link rel="shortcut icon" href="<?php echo theme_url('assets/favicon.ico'); ?>" type="image/x-icon">
+		
+		<!-- Fonts -->
+		<link href='http://fonts.googleapis.com/css?family=Julius+Sans+One' rel='stylesheet' type='text/css'>
 
 		<!-- Meta -->
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
